@@ -1,3 +1,21 @@
+///////////////////////////////////////////////////////////////////////////////
+//                   
+// Author:           Mae-Jeanne Preville
+// Email:            maejeanne.t.c.preville@gmail.com
+// Label:            02-A02
+// Title:            Comments
+// Course:           CMPS 2143
+// Semester:         Spring 2020
+//
+// Description:
+//       describe program here thoroughly 
+//
+// Usage:
+//       how to use the program if necessary
+//
+// Files:            main.cpp
+/////////////////////////////////////////////////////////////////////////////////
+
 #include <iostream>
 
 using namespace std;
@@ -20,37 +38,91 @@ struct Node
     }
 };
 
+/**
+ * List
+ * 
+ * Description:
+ *      This class implements a linked list with two nodes. 
+ *
+ *
+ *
+ * 
+ * Public Methods:
+ *                          List()                               
+ *      void                Push(int val)
+ *      void                Insert(int val)
+ *      void                PrintTail()
+ *      string              Print()
+ *      int                 Pop()
+ *      List operator+(const List &Rhs)
+ * 
+ * Private Methods:
+ *
+ * 
+ * Usage: 
+ * 
+ *      Huffman H(filename):                        // Create Instance of Huffman
+ *                                                  // and build freq table. 
+ *      H.GetCodes();                               // get map <char,string> of codes
+ *
+ *
+ */
+
 class List
 {
   private:
-    Node *Head;
-    Node *Tail;
-    int Size;
+    Node *Head;     //head node
+    Node *Tail;     //tail node
+    int Size;       //size var
 
   public:
     List()
     {
-        Head = Tail = NULL;
-        Size = 0;
+        Head = Tail = NULL;   //initializing head and tail to null
+        Size = 0;             //initializing size to 0 
     }
-
+    
+    /**
+     * Public : Push
+     * 
+     * Description:
+     *      Adds item to the end of the list
+     * 
+     * Params:
+     *      int    :  integer values
+     * 
+     * Returns:
+     *      Nothing
+     */
     void Push(int val)
     {
         // allocate new memory and init node
         Node *Temp = new Node(val);
 
-        if (!Head && !Tail)
+        if (!Head && !Tail)     //if head and tail is not empty
         {
-            Head = Tail = Temp;
+            Head = Tail = Temp; //let head = tail = temp
         }
         else
         {
-            Tail->next = Temp;
+            Tail->next = Temp; 
             Tail = Temp;
         }
         Size++;
     }
-
+    
+    /**
+     * Public : Insert
+     * 
+     * Description:
+     *      Inserts new item to the list
+     * 
+     * Params:
+     *      int    :  integer values
+     * 
+     * Returns:
+     *      Nothing
+     */
     void Insert(int val)
     {
         // allocate new memory and init node
@@ -66,12 +138,36 @@ class List
         }
         Size++;
     }
-
+    
+     /**
+     * Public : PrintTail
+     * 
+     * Description:
+     *      Displays the tail or end of the list
+     * 
+     * Params:
+     *      
+     * 
+     * Returns:
+     *      Nothing
+     */
     void PrintTail()
     {
         cout << Tail->x << endl;
     }
-
+    
+     /**
+     * Public : Print
+     * 
+     * Description:
+     *      Displays items in list
+     * 
+     * Params:
+     *     
+     * 
+     * Returns:
+     *      string  :   list 
+     */
     string Print()
     {
         Node *Temp = Head;
@@ -85,14 +181,38 @@ class List
 
         return list;
     }
-
+    
+     /**
+     * Public : Pop
+     * 
+     * Description:
+     *      Removes an item from the list
+     * 
+     * Params:
+     *      
+     * 
+     * Returns:
+     *      int :   0
+     */
     // not implemented 
     int Pop()
     {
         Size--;
         return 0; //
     }
-
+    
+     /**
+     * Public : List
+     * 
+     * Description:
+     *      Creates a new list that will be added to original list
+     * 
+     * Params:
+     *      const    :  list
+     * 
+     * Returns:
+     *      NewList 
+     */
     List operator+(const List &Rhs)
     {
         // Create a new list that will contain both when done
@@ -122,6 +242,20 @@ class List
         return NewList;
     }
 
+     /**
+     * Public : Insert
+     * 
+     * Description:
+     *      This function returns an int value
+     *      as if the list were an array.
+     * 
+     * Params:
+     *      int    :  index
+     * 
+     * Returns:
+     *      integer
+     */
+    
     // Implementation of [] operator.  This function returns an
     // int value as if the list were an array.
     int operator[](int index)
@@ -143,7 +277,19 @@ class List
             return Temp->x;
         }
     }
-
+    
+     /**
+     * Public : Insert
+     * 
+     * Description:
+     *      Adds item to the list
+     * 
+     * Params:
+     *      int    :  integer values
+     * 
+     * Returns:
+     *      Nothing
+     */
     friend ostream &operator<<(ostream &os, List L)
     {
         os << L.Print();
@@ -151,6 +297,11 @@ class List
     }
 };
 
+/**
+*
+* Main program
+*
+*/
 int main(int argc, char **argv)
 {
     List L1;

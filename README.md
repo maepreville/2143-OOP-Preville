@@ -4,4 +4,4 @@
 #### Image:
 
 #### Avatar:
-![Avatar](https://www.pexels.com/photo/shallow-focus-photography-of-yellow-sunflower-field-under-sunny-sky-1169084)
+![Avatar](https://www.johnnyseeds.com/dw/image/v2/BBBW_PRD/on/demandware.static/-/Sites-jss-master/default/dw26c3bf34/images/products/flowers/01712_01_procutorange.jpg?sw=387&cx=302&cy=0&cw=1196&ch=1196)

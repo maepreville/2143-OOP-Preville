@@ -58,7 +58,9 @@ struct Node
  *      string              Print()
  *      int                 Pop()
  *      List operator+(const List &Rhs)
- * 
+ *      int                 operator[]
+ *      friend ostream &operator<<
+ *
  * Private Methods:
  *
  *

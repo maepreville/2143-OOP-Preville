@@ -8,7 +8,10 @@
 // Semester:         Spring 2020
 //
 // Description:
-//       describe program here thoroughly 
+//       This program pushes, pops, and inserts items in a list. It also
+//       creates new memory when needed (in push function), and makes
+//       allowance to join new data (in List operator+). Additionally,
+//       it prints the output.
 //
 // Usage:
 //       how to use the program if necessary
@@ -61,10 +64,12 @@ struct Node
  * 
  * Usage: 
  * 
- *      Huffman H(filename):                        // Create Instance of Huffman
- *                                                  // and build freq table. 
- *      H.GetCodes();                               // get map <char,string> of codes
+ *      Huffman H(filename):              // Create Instance of Huffman
+ *                                        // and build freq table. 
+ *      H.GetCodes();                     // get map <char,string> of codes
  *
+ *Files:
+ *      main.cpp                          //main program driver
  *
  */
 
@@ -243,7 +248,7 @@ class List
     }
 
      /**
-     * Public : Insert
+     * Public : operator[]
      * 
      * Description:
      *      This function returns an int value
@@ -279,18 +284,18 @@ class List
     }
     
      /**
-     * Public : Insert
+     * Public : friend ostream &operator
      * 
      * Description:
-     *      Adds item to the list
+     *     Calls print function and returns value
      * 
      * Params:
      *      int    :  integer values
      * 
      * Returns:
-     *      Nothing
+     *      os
      */
-    friend ostream &operator<<(ostream &os, List L)
+    friend ostream &operator<<(ostream &os, List L) //ability to access private data
     {
         os << L.Print();
         return os;

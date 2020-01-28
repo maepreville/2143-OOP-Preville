@@ -61,12 +61,6 @@ struct Node
  * 
  * Private Methods:
  *
- * 
- * Usage: 
- * 
- *      Huffman H(filename):              // Create Instance of Huffman
- *                                        // and build freq table. 
- *      H.GetCodes();                     // get map <char,string> of codes
  *
  *Files:
  *      main.cpp                          //main program driver

@@ -1,10 +1,10 @@
-## Homework 2 - Poker Game Design
+### H02
 ### 2143
 ### PREVILLE
 #### Due: 02-04-2020 
 
 
-*Hand
+#### Hand:
 
 A hand can play a card.
 
@@ -17,7 +17,7 @@ A hand can require more cards.
 A hand can require more cards.
 
 
-*Player
+#### Player:
 
 A player should know card value (number, color).
 
@@ -32,7 +32,7 @@ A player should be able to reveal his/her cards.
 A player should be able to remove a card.
 
 
-*Game
+#### Game:
 
 A start point.
 
@@ -45,7 +45,7 @@ User option to play again.
 Announce a winner/loser.
 
 
-*Poker
+#### Poker:
 
 Prompt a user to draw card.
 

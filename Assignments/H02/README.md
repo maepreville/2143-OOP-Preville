@@ -5,6 +5,7 @@ H02
 PREVILLE
 
 
+
 Hand
 
 A hand can play a card.
@@ -16,6 +17,7 @@ A hand can run out of cards.
 A hand can require more cards.
 
 A hand can require more cards.
+
 
 
 Player
@@ -33,6 +35,7 @@ A player should be able to reveal his/her cards.
 A player should be able to remove a card.
 
 
+
 Game
 
 A start point.
@@ -44,6 +47,7 @@ Prompt player to play.
 User option to play again.
 
 Announce a winner/loser.
+
 
 
 Poker

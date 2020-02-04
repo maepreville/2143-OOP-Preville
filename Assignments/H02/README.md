@@ -1,8 +1,12 @@
 H02
+
 2143
+
 PREVILLE
 
+
 Card
+
 A card should know its value (some value not necessarily related to suit and rank).
 A card (for poker) should know its suit and rank.
 A card should know how to print itself.
@@ -10,6 +14,7 @@ A card should know how to be compared to other cards (<, >, ==, !=).
 
 
 Deck
+
 A deck is composed of 1 - N cards.
 A deck can deal a card.
 A deck can shuffle cards.
@@ -18,6 +23,7 @@ A deck can run out of cards.
 
 
 Hand
+
 A hand can play a card.
 A hand can draw a card.
 A hand can run out of cards.
@@ -26,6 +32,7 @@ A hand can require more cards.
 
 
 Player
+
 A player should know card value (number, color).
 A player should be able to play a card.
 A player should know the value of the cards in hand.
@@ -35,6 +42,7 @@ A player should be able to remove a card.
 
 
 Game
+
 A start point.
 An end point.
 Prompt player to play.
@@ -43,6 +51,7 @@ Announce a winner/loser.
 
 
 Poker
+
 Prompt a user to draw card.
 Prompt a user to play card.
 Indicate type of flush, full house, straight, three of a kind,

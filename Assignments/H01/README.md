@@ -5,6 +5,7 @@ Date: 02-04-2020
 Class: 2143 OOP
 
 Definitions
+
 •	Abstraction
 This is defined as the general model of something. It is a very important aspect of object oriented programming in C++. Abstraction displays the more essential information and leaves out the details that refer to other less relevant parts of the object. For example, a vehicle can prove an abstraction. When we drive, we know how to drive a car, and we know that pressing the accelerator will increase the speed of car, while pressing the brake will terminate movement. However, very few people actually know how a vehicle works or know what all its components are. 
 

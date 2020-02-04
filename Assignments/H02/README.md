@@ -4,6 +4,12 @@ H02
 
 PREVILLE
 
+## Homework 2 - Poker Game Design
+##2143
+#### Due: 02-04-2020 (Tuesday @ 11:00 a.m.)
+
+### PREVILLE
+
 
 *Hand
 

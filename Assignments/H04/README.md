@@ -30,6 +30,6 @@ PREVILLE
 
 
 ### Poker Class Diagram
-<img src="https://cs.msutexas.edu/~griffin/zcloud/zcloud-files/draw.io.person" width="200">
+<img src="https://github.com/maepreville/2143-OOP-Preville/blob/master/Assignments/H04/Poker%20Class%20Diagram.png?raw=true" width="200">
 
 

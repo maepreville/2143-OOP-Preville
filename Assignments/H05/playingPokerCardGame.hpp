@@ -13,9 +13,9 @@
 //
 // Files:            
 //       termio.h
-//		 poker_game.hpp
+//	 poker_game.hpp
 //       playingPokerCardGame.hpp
-//		 Source.cpp
+//	 Source.cpp
 //       
 /////////////////////////////////////////////////////////////////////////////////
 

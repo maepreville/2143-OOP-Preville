@@ -19,7 +19,7 @@
 //       
 /////////////////////////////////////////////////////////////////////////////////
 
-#include "poker_game.hpp"
+#include "war_game.hpp"
 
 using namespace std;
 
@@ -33,13 +33,13 @@ int main() {
 		D.Shuffle();
 		D.Print(2, true);
 		io << "Player 1   Player 2\n";
+
+		Game::play();
+		
 		break;
+		
 		io << Term::sleep(200);
 	}
-		
-	//io
-
-	D.Table();
 
 	system("Pause");
 	return 0;	

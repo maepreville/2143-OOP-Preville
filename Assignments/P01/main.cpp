@@ -3,7 +3,7 @@
 // Author:           Mae-Jeanne Preville
 // Email:            maejeanne.t.c.preville@gmail.com
 // Label:            P01
-// Title:            Card Game
+// Title:            Game of War
 // Course:           CMPS 2143
 // Semester:         Spring 2020
 //

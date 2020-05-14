@@ -19,6 +19,7 @@
 
 
 ### Diagram
-<img src="https://github.com/maepreville/2143-OOP-Preville/blob/master/Assignments/ width="600">
+<img src="https://github.com/maepreville/2143-OOP-Preville/blob/master/Assignments/P03/Diagram.png?raw=true" width="600">
+                                                                                               
 
 

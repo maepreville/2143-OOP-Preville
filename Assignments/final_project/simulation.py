@@ -289,7 +289,7 @@ if __name__=='__main__':
     people = []
 
     # list of colors
-    colors = ["blue", "light_blue", "white", "yellow","orange","green"]
+    colors = ["red", "yellow", "white", "pink","orange","grey"]
 
     #speeds = [x for x in range(1,3)] #pythonic
 
@@ -328,7 +328,7 @@ if __name__=='__main__':
 
 
         # Fill the background with blackish
-        screen.fill((30, 30, 30))
+        screen.fill((29, 30, 20))
 
         sprites_list.draw(screen)
 
@@ -340,7 +340,7 @@ if __name__=='__main__':
             # and check for collision (could be better)
             for sp in people:
                 if not p == sp:  #and sp.state == 'infected':
-                    p.collide(sp,25)
+                    p.collide(sp,24)
 
        
 
@@ -355,4 +355,3 @@ if __name__=='__main__':
 
     # Done! Time to quit.
     pygame.quit()
-

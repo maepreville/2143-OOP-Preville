@@ -8,3 +8,5 @@ People who are infected have contracted the virus. Them having the virus does no
 Those who have recovered have been infected, and are now healed of the illness. They are not contagious and they do not show symptoms.
 
 The individuals who have been infected change color and they go on and spread to other susceptible people. 
+
+Some of the major classes are 
